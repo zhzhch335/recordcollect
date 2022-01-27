@@ -1,0 +1,19 @@
+{
+  "name": "recordcollect",
+  "version": "1.0.0",
+  "description": "用于给么么的生日礼物收集录音",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhzhch335/recordcollect.git"
+  },
+  "author": "林语琛",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhzhch335/recordcollect/issues"
+  },
+  "homepage": "https://github.com/zhzhch335/recordcollect#readme"
+}
