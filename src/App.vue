@@ -48,7 +48,7 @@
       v-model="birthSoundAddress"
       center
       clearable
-      label="录制生日快乐（最多4秒）"
+      label="录制“生日快乐”这四个字（最多4秒）"
     >
       <template #right-icon>
         <van-button
