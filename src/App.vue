@@ -101,7 +101,7 @@ export default {
   },
   data() {
     return {
-      host: "http://81.70.153.21",
+      host: "https://meme.xiaoxideai.ren",
 
       isRecording: false,
       countDown: 0,
