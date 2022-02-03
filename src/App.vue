@@ -76,7 +76,9 @@
         <input style="display: none" type="text" />
       </template>
     </van-field>
-    <van-button :disabled="!canSubmit" @click="submit()" type="primary"> 提交 </van-button>
+    <van-button :disabled="!canSubmit" @click="submit()" type="primary">
+      提交
+    </van-button>
     <!-- <Progress strokeColor="#FF00AA" :value="(recordProcess / 30) * 100">
       <template v-slot:footer>
         <b>录制限时3秒</b>
@@ -147,6 +149,12 @@ export default {
             window.URL = window.URL || window.webkitURL;
 
             audio_context = new AudioContext();
+            if (!navigator.getUserMedia) {
+              Dialog.alert({
+                message:
+                  "(由于我比较菜)苹果有的系统目前搞不了录音，麻烦用安卓或者电脑来录吧",
+              });
+            }
             console.log("请设置Audio context .");
             console.log(
               "navigator.getUserMedia " +
