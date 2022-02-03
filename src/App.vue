@@ -152,7 +152,7 @@ export default {
             if (!navigator.getUserMedia) {
               Dialog.alert({
                 message:
-                  "如果录不上试试浏览器中选择“查看电脑版网页”或者换安卓或电脑来录（苹果有的版本我妹有搞定）",
+                  "如果录不上试试浏览器中选择“请求桌面站点”或者换安卓或电脑来录（苹果有的版本我妹有搞定）",
               });
             }
             console.log("请设置Audio context .");
